@@ -1,0 +1,44 @@
+/* SilverWare FAQs Styles
+===================================================================================================================== */
+
+.faqpage,
+.faqcategory {
+  
+  article {
+    
+    div.faqs {
+      
+      > section.faq {
+        
+        margin-bottom: $spacer;
+        
+        &:last-child {
+          margin-bottom: 0;
+        }
+        
+      }
+      
+      > section.category {
+        margin-bottom: $spacer-double;
+        padding: $spacer 0 0;
+        border-top: $border-width solid $border-color;
+      }
+      
+    }
+    
+  }
+  
+}
+
+.faqcategory {
+  
+  article {
+    
+    div.faqs {
+      padding: $spacer 0 0;
+      border-top: $border-width solid $border-color;
+    }
+    
+  }
+  
+}

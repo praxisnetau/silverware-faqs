@@ -1,0 +1,11 @@
+---
+Name: silverware-faqs
+---
+
+# Configure Content Controller:
+
+SilverStripe\CMS\Controllers\ContentController:
+  required_js:
+    - "silverware/faqs: client/dist/js/bundle.js"
+  required_css:
+    - "silverware/faqs: client/dist/styles/bundle.css"
